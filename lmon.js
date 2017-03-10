@@ -147,7 +147,7 @@ function timeTill(dayOfWeek, hour, min)
     }
     else
     {
-      document.getElementById("timeUntil").innerHTML = "&nbsp" + "No more Late Meal today. Sorry, friend." + "&nbsp";
+      document.getElementById("timeUntil").innerHTML = "&nbsp" + "No more Late Meal today. Sorry, tigers." + "&nbsp";
     }
   } 
 }
