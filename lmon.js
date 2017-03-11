@@ -100,7 +100,7 @@ function timeTill(dayOfWeek, hour, min)
   // Weekend
   if (dayOfWeek == 0 || dayOfWeek == 6)
   {
-      document.getElementById("timeUntil").innerHTML = "&nbsp" + "No Late Meal on the weekend, silly." + "&nbsp";
+      document.getElementById("timeUntil").innerHTML = "&nbsp" + "No Late Meal on the weekends, silly." + "&nbsp";
   }
   // Friday
   else if (dayOfWeek == 5)
