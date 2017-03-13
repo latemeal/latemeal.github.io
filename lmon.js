@@ -62,12 +62,12 @@ function timeLeft(typeLateMeal, hour, min)
   {
     hourLeft = 15 - hour;
     minLeft = (45 + (60 * hourLeft)) - min;
-    if (minLeft > 45) // 2:45 - 3 window
+    /*if (minLeft > 45) // 2:45 - 3 window
     {
       hourLeft = 0;
-    }
+    } */
 
-    if (hourLeft != 0)
+    if (hourLeft != 0 && minLeft <= 45)
     {
       document.getElementById("timeUntil").innerHTML = "&nbsp" + hourLeft + " hour and " + minLeft + " minutes until Late Meal ends." + "&nbsp";
     }
