@@ -71,7 +71,7 @@ function timeLeft(typeLateMeal, hour, min)
     {
       document.getElementById("timeUntil").innerHTML = "&nbsp" + hourLeft + " hour and " + minLeft + " minutes until Late Meal ends." + "&nbsp";
     }
-    else if (hourLeft != 0 && minLeft > 45)
+    else if (hourLeft != 0 && (minLeft - 60) > 0)
     {
       document.getElementById("timeUntil").innerHTML = "&nbsp" + hourLeft + " hour and " + (minLeft - 60) + " minutes until Late Meal ends." + "&nbsp";
     }
